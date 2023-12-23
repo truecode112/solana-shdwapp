@@ -1,5 +1,4 @@
 {
-    "extends": "../../../tsconfig.root.json",
     "include": ["src"],
     "compilerOptions": {
         "outDir": "lib",
@@ -12,6 +11,7 @@
         "strict": true,
         "forceConsistentCasingInFileNames": true,
         "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": false,
         "module": "esnext",
         "moduleResolution": "node",
         "resolveJsonModule": true,
